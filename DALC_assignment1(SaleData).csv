@@ -1,0 +1,30 @@
+OrderDate,Region,SalesMan,Item,Sale_amt,FORMULA,RESULT,,,
+1/6/18,East,Alexander,Television,"1,138.00",,,,,
+1/23/18,Central,Shelli,Home Theater,"2,500.00",,,,,
+1/24/18,Central,Luis,Television,"4,312.00",SUM=>,"74,481.00",,,
+1/25/18,Central,David,Cell Phone,"6,075.00",SUMIF=>,42999,,,
+1/26/18,West,Stephen,Television,"6,708.00",MIN=>,561.00,,,
+1/27/18,East,Alexander,Home Theater,"3,000.00",MAX=>,"8,985.00",,if=>,not eligible
+1/28/18,Central,Steven,Television,"8,985.00",AVERAGE=>,"3,103.38",,, in promotion
+1/29/18,Central,Luis,Television,"1,078.00",COUNT=>,24,,, in promotion
+1/30/18,West,Michael,Television,"3,833.00",BLANK=>,0,,, in promotion
+1/31/18,East,Alexander,Home Theater,"3,000.00",POWER=,1295044,,, in promotion
+2/1/18,Central,Sigal,Television,"1,070.00",CONCAT=>,AlexanderTelevisionEast,,, in promotion
+2/2/18,East,Diana,Home Theater,"1,450.00",TRIM=>,Home Theater,,, in promotion
+2/3/18,East,Karen,Home Theater,"4,050.00",LEFT=>,H,,,not eligible
+2/4/18,East,Alexander,Television,"4,190.00",MID=>,Karen,,, in promotion
+2/5/18,Central,John,Desk,2500,RIGHT=>,r,,, in promotion
+2/6/18,East,Alexander,Video Games,2560,UPPER=>,HOME THEATER,,,not eligible
+2/7/18,Central,Sigal,Home Theater,"1,400.00",LOWER=>,home theater,,,not eligible
+2/8/18,East,Alexander,Cell Phone,"1,440.00",DATE=>,8/2/2024 9:10,,, in promotion
+2/9/18,East,Karen,Cell Phone,"2,850.00",SECOND=>,38,,, in promotion
+2/10/18,Central,Shelli,Video Games,561.00,MONTH=>,8,,, in promotion
+2/11/18,Central,John,Television,802.00,YEAR=>,2024,,, in promotion
+2/12/18,East,Karen,Video Games,"4,329.00",,,,,not eligible
+2/13/18,Central,David,Home Theater,"2,300.00",INDEX=>,1138,,,not eligible
+2/14/18,Central,John,Home Theater,"4,350.00",MATCH=>,19,,, in promotion
+,,,,,MEDIAN=>,"2,705.00",,,not eligible
+,,,,,MEAN=>,"3,103.38",,,not eligible
+,,,,,MODE=>,2500,,, in promotion
+,,,,,,,,, in promotion
+,,,,,,,,, in promotion
